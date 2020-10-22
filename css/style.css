@@ -1,4 +1,24 @@
 [class*="col-"] {
   text-align: center;
   line-height: 200px;
+  background-color: pink;
+  border: 1px solid black;
+}
+.Nested {
+  border: 1.5px solid white;
+  background-color: #F07F80;
+  line-height: 190px;
+}
+
+.last {
+  padding: 5px;
+}
+.last [class*="col-"] {
+  height: 190px;
+  line-height: 190px;
+}
+p {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
 }
