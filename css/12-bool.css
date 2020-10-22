@@ -1,0 +1,71 @@
+.debug [class*="col-"] {
+  border: 1px solid black;
+  background-color: pink;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+  width: calc((100%/12)*1);
+  min-height: 200px;
+}
+.col-2 {
+  width: calc((100%/12)*2);
+  min-height: 200px;
+}
+.col-3 {
+  width: calc((100%/12)*3);
+  min-height: 200px;
+}
+.col-4 {
+  width: calc((100%/12)*4);
+  min-height: 200px;
+}
+.col-5 {
+  width: calc((100%/12)*5);
+  min-height: 200px;
+}
+.col-6 {
+  width: calc((100%/12)*6);
+  min-height: 200px;
+}
+.col-7 {
+  width: calc((100%/12)*7);
+  min-height: 200px;
+}
+.col-8 {
+  width: calc((100%/12)*8);
+  min-height: 200px;
+}
+.col-9 {
+  width: calc((100%/12)*9);
+  min-height: 200px;
+}
+.col-10 {
+  width: calc((100%/12)*10);
+  min-height: 200px;
+}
+.col-11 {
+  width: calc((100%/12)*11);
+  min-height: 200px;
+}
+.col-12 {
+  width: calc((100%/12)*12);
+  min-height: 200px;
+}
